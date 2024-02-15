@@ -87,15 +87,16 @@ confirmer = {}
 
 
 START_IMG_URL = [""]
-PING_IMG_URL = ["
-PLAYLIST_IMG_URL = g
-    "PLAYLIST_IMG_URL", "https://graph.org/file/9d75bfb77e17b80b3da5b.png"
+PING_IMG_URL = [""]
+STATS_IMG_URL = [""]
+PLAYLIST_IMG_URL = getenv(
+    "PLAYLIST_IMG_URL", ""
 )
 TELEGRAM_AUDIO_URL = getenv(
-    "TELEGRAM_AUDIO_URL", "https://graph.org/file/9d75bfb77e17b80b3da5b.png"
+    "TELEGRAM_AUDIO_URL", ""
 )
 TELEGRAM_VIDEO_URL = getenv(
-    "TELEGRAM_VIDEO_URL", "https://graph.org/file/9d75bfb77e17b80b3da5b.png"
+    "TELEGRAM_VIDEO_URL", ""
 )
 STREAM_IMG_URL = getenv(
     "STREAM_IMG_URL", "https://te.legra.ph/file/693694b0d94afa372ca5a.jpg"
